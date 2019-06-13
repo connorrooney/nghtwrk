@@ -6,7 +6,7 @@ const backgroundList = ["url('./img/1.jpg')", "url('./img/2.jpg')", "url('./img/
 function next() {
     active++;
     if(active >= season.length) {
-        active = season.length
+        active = season.length - 1
         //disable next button
     }
     season[active].className = "active";
@@ -15,7 +15,7 @@ function next() {
 
 function prev() {
     active--;
-    if(active <= 0) {
+    if(active < 0) {
         active = 0;
     }
     season[active].className = "active";
