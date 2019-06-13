@@ -1,7 +1,7 @@
 let active = 0;
 let season = document.getElementById("season").children;
 let background = document.getElementById("background");
-const backgroundList = ["url(./img/1.jpg)", "url(./img/2.jpg)", "url(./img/3.jpg)"]
+const backgroundList = ["url('./img/1.jpg')", "url('./img/2.jpg')", "url('./img/3.jpg')"]
 
 function next() {
     active++;
