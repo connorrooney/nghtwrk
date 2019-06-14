@@ -14,7 +14,7 @@ body {
 #background {
     background-size: cover;
     opacity: 0.1;
-    background-image: url("./img/1.jpg");
+    background-image: none;
     top: 0;
     left: 0;
     bottom: 0;
